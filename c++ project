@@ -1,12 +1,16 @@
-#include<cmath>
-#include<cstdio>
-#include<vector>
 #include<iostream>
-#include<alogrithm>
+
+using namespace std;
+
 int main(){
-std::cout<<"Size of char:"<< sizeof()<<"byte"<<endl;
-std::cout<<"Size of Int:"<<sizeof()<<"byte"<<endl;
-std::cout<<"Size of double:"<<sizeof()<<"byte"<<endl;
-std::cout<<"size of float:"<<sizeof()<<"byte"<<endl;
+
+cout << "Size of char:" << sizeof(char) ;
+
+cout << "\nSize of double:" << sizeof(double) ;
+
+cout << "\nsize of float:" << sizeof(float) ;
+
+cout << "\nSize of int:" << sizeof(int) ;
+
 return 0;
 }
